@@ -15,7 +15,7 @@ State 2: Low load mining when not idle but not running a full-screen program
 INSTALLATION:
 1. Download and install MSI Afterburner and AutoIT making sure that MSI Afterburner starts with Windows.
 2. Save a gaming OC or default setting for your GPU as profile 1 and a mining OC as profile 2 in MSI Afterburner.
-3. Download T-Rex Miner and place the .exe along with the AutoIT script and .bat files into "C:\Program Files\trexminer".
+3. Download T-Rex Miner and place the .exe along with the AutoIT script and .bat files into "C:\Program Files\trexminer" or your desired path.
 ![image](https://user-images.githubusercontent.com/89110389/160722998-312c9cb0-823a-41be-846b-d4a221c81ac0.png)
 4. Modify the .bat files, replacing my ETH address and mining pool with your own.
 5. Modify the "trexminer" XML by changing the Author and USER ID to match your user account. Next, import it into task scheduler. This starts the AutoIT script when you log on.
