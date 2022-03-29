@@ -15,8 +15,8 @@ While 1
 	   Run("C:\Program Files\trexminer\eth-lowload.bat")
 	   $state = 2
 ; No eth with no idle and fullscreen
-   ElseIf $idleTimer < 5000 And $WinWidth >= @DesktopWidth And $WinHeight >= @DesktopHeight And ProcessExists("t-rex.exe") Then
+   ElseIf $idleTimer < 5000 And $WinWidth >= @DesktopWidth And $WinHeight >= @DesktopHeight And $state <> 0 Then
       Run("C:\Program Files\trexminer\eth-stop.bat")
-	  $state = 3
+	  $state = 0
    EndIf
 WEnd
