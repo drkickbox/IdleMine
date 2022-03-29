@@ -8,9 +8,9 @@ DEPENDENCIES:
 (Note: You can easily change directories of these files within the scripts -- just replace "C:\Program Files\" or "C:\Program Files (x86)\" with your path.)
 
 This is a simple script that utilizes t-rex miner and MSI Afterbuner to switch between various states as you use your computer, rather than relying on questionable closed-source miners and overclocking utilities). You do not need to run the miner as admin in this case.
-State 0: Miner not running/ full-screen program such as a game running
-State 1: Full speed mining when idle
-State 2: Low load mining when not idle but not running a full-screen program
+- State 0: Miner not running/ full-screen program such as a game running
+- State 1: Full speed mining when idle
+- State 2: Low load mining when not idle but not running a full-screen program
 
 INSTALLATION:
 1. Download and install MSI Afterburner and AutoIT making sure that MSI Afterburner starts with Windows.
